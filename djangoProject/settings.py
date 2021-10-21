@@ -45,11 +45,8 @@ INSTALLED_APPS = [
     'rest_framework',
     'corsheaders',
     'storages',
-    'dbbackup',
 ]
 
-DBBACKUP_STORAGE = 'django.core.files.storage.FileSystemStorage'
-DBBACKUP_STORAGE_OPTIONS = {'location': BASE_DIR / 'backup'}
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (
